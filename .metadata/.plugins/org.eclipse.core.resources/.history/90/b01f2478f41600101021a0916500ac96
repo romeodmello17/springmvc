@@ -1,0 +1,5 @@
+package firstmvc.springmvc.controller;
+
+public class ContactController {
+
+}

@@ -1,0 +1,33 @@
+package firstmvc.springmvc.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HelloController {
+	@RequestMapping("/hello")
+	public String hello() {
+		System.out.println("This is Hello url");
+		return "hello";
+	}
+	
+	@RequestMapping("/home")
+	public String home(Model model) {
+		System.out.println("This is Home URL");
+		model.addAttribute("name","Rahul");
+		model.addAttribute("rollno",17);
+		List<String> stocks = new ArrayList<String>();
+		stocks.add("Large Cap MF");
+		stocks.add("Mid Cap MF");
+		stocks.add("Small Cap MF");
+		stocks.add("Crypto");
+		
+		model.addAttribute("s",stocks);
+		
+		return "home";
+	}
+}

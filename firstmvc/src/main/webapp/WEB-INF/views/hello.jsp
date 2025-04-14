@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hello</title>
+</head>
+<body>
+	<h1>Hello from Rahul</h1>
+	<h2>called By Hello controller</h2>
+	<h2>url /hello</h2>
+	<c:forEach var="stocks" items= ${s } >
+		
+		<h1>${stocks}</h1>
+	
+	</c:forEach>
+</body>
+</html>

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\romeo\Desktop\SpringMVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4247429095.index
+\firstmvc\src\main\java
+C:\Users\romeo\Desktop\SpringMVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3900721422.index
+\firstmvc\src\main\resources
